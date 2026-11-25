@@ -1,0 +1,28 @@
+====================================================================
+  STUDENT MARKS MATRIX ANALYSIS
+====================================================================
+Student       Maths   Physics Chemistry        CS      Avg
+--------------------------------------------------------------------
+Karthik          78        82        75        85    80.00
+Priya            62        58        65        60    61.25
+Ravi             85        80        88        90    85.75
+Sneha            70        68        72        74    71.00
+--------------------------------------------------------------------
+
+Row-wise (per student):
+  Karthik   total=320  avg=80.00  grade=B (First Class)    ok
+  Priya     total=245  avg=61.25  grade=C (Second Class)   ok
+  Ravi      total=343  avg=85.75  grade=A (Distinction)    ok
+  Sneha     total=284  avg=71.00  grade=B (First Class)    ok
+  -> Top performer: Ravi (343 marks)
+
+Column-wise (per subject):
+  Maths      average = 73.75
+  Physics    average = 72.00
+  Chemistry  average = 75.00
+  CS         average = 77.25
+
+Extremes:
+  Highest: 90 (Ravi in CS)
+  Lowest : 58 (Priya in Physics)
+  Weak subjects (avg < 70): none

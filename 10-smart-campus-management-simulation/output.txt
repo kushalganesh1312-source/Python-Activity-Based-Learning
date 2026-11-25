@@ -1,0 +1,129 @@
+==============================================================
+  SMART CAMPUS MANAGEMENT SIMULATION
+==============================================================
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Name   :   Department:   Added B1 (Karthik, CSE).
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Name   :   Department:   Added B2 (Priya, ECE).
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   REJECTED: roll B1 already exists.
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Classes attended:   Classes held     :   B1 attendance = 90.0% -> ELIGIBLE
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Classes attended:   Classes held     :   B2 attendance = 65.0% -> NOT ELIGIBLE (<75%)
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Marks in 4 subjects (space separated):   B1 marks=[85, 78, 90, 82] avg=83.75 grade=FIRST
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Marks in 4 subjects (space separated):   B2 marks=[55, 48, 62, 70] avg=58.75 grade=THIRD
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Events:
+    1. TechFest       fee Rs 250
+    2. CulturalNight  fee Rs 150
+    3. SportsMeet     fee Rs 100
+  Choice:   Registered B1 for TechFest (Rs 250).
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Events:
+    1. TechFest       fee Rs 250
+    2. CulturalNight  fee Rs 150
+    3. SportsMeet     fee Rs 100
+  Choice:   Registered B2 for CulturalNight (Rs 150).
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Roll no:   Events:
+    1. TechFest       fee Rs 250
+    2. CulturalNight  fee Rs 150
+    3. SportsMeet     fee Rs 100
+  Choice:   REJECTED: already registered for TechFest.
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Route name:   Passenger demand:   Bus capacity     :   Buses available  :   R1: served=160  unserved=20  (buses 4 x capacity 40)
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Route name:   Passenger demand:   Bus capacity     :   Buses available  :   R2: served=60  unserved=0  (buses 2 x capacity 30)
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice: ==============================================================
+  CAMPUS SUMMARY REPORT
+==============================================================
+  Students on roll : 2
+     B1     Karthik        CSE
+     B2     Priya          ECE
+  Attendance records: 2
+     B1     18/20 = 90.0%
+     B2     13/20 = 65.0%
+  Marks records: 2
+     B1     [85, 78, 90, 82] avg=83.75
+     B2     [55, 48, 62, 70] avg=58.75
+  Event registrations: 2  ->  revenue Rs 400
+     route R1     demand=180 served=160 unserved=20
+     route R2     demand=60 served=60 unserved=0
+  Total unserved passengers: 20
+==============================================================
+
+  SMART CAMPUS MENU
+  1. Add student        2. Record attendance
+  3. Record marks       4. Event registration
+  5. Transport alloc.   6. Summary report
+  0. Exit
+  Enter choice:   Session ended. Goodbye!

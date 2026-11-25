@@ -1,0 +1,30 @@
+========================================================================
+  COURSE REGISTRATION VALIDATION (Tuples)
+========================================================================
+Rules: max 4 courses, no duplicates, prerequisites needed,
+exclusive pair not together, only known codes allowed.
+------------------------------------------------------------------------
+  R01 (Karthik) - 3 course(s): CS101, MATH101, PHY101
+      -> VALID
+  R02 (Priya) - 3 course(s): CS101, CS101, CS201
+      -> INVALID
+         * duplicate 'CS101'
+  R03 (Ravi) - 2 course(s): CS201, MATH101
+      -> INVALID
+         * missing prerequisite CS101 for CS201
+  R04 (Sneha) - 5 course(s): CS101, PHY101, PHY102, MATH101, ENG101
+      -> INVALID
+         * registered for 5 courses (max 4)
+         * exclusive pair PHY101 + PHY102 together
+  R05 (Arjun) - 4 course(s): CS101, CS201, MATH101, ENG101
+      -> VALID
+  R06 (Divya) - 2 course(s): CS301, MATH101
+      -> INVALID
+         * missing prerequisite CS201 for CS301
+------------------------------------------------------------------------
+Summary: 2 valid, 4 invalid student(s).
+Invalid students:
+   - R02 Priya
+   - R03 Ravi
+   - R04 Sneha
+   - R06 Divya

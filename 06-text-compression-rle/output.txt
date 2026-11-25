@@ -1,0 +1,16 @@
+============================================================================
+  TEXT COMPRESSION USING CHARACTER RUNS (RLE)
+============================================================================
+Original           Len   Encoded                    Len  Result
+----------------------------------------------------------------------------
+aaabbbccc            9   a3b3c3                       6  compressed by 3
+python               6   p1y1t1h1o1n1                12  NOT useful (+6)
+aaaaaaaaaa          10   a10                          3  compressed by 7
+hello                5   h1e1l2o1                     8  NOT useful (+3)
+zzzzzzzzzzzz        12   z12                          3  compressed by 9
+mississippi         11   m1i1s2i1s2i1p2i1            16  NOT useful (+5)
+(empty)              0   (empty)                      0  same length, not useful
+----------------------------------------------------------------------------
+Compression helped in 3 out of 7 samples.
+Repeated letters compress well. Short or random words become longer
+because the count digits take extra space.

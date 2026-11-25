@@ -1,0 +1,23 @@
+========================================================
+  EXAMINATION SEATING ARRANGEMENT
+========================================================
+     C1  C2  C3  C4  C5  C6
+     -----------------
+R1   | R  O  O  O  O  O
+R2   | X  O  X  O  X  O
+R3   | O  O  O  R  O  O
+R4   | X  O  X  O  X  O
+R5   | O  O  O  O  O  R
+
+  O = open seat, R = reserved, X = blocked (alternate rule)
+
+Summary
+--------------------------------------------------------
+  Total positions : 30 (5 rows x 6 cols)
+  Open seats (O)  : 21
+  Reserved (R)    : 3
+  Blocked (X)     : 6
+  Capacity        : 24 students
+
+Validation demo:
+  ERROR: seat (7,2) is outside 5x6 grid

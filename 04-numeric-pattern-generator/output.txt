@@ -1,0 +1,43 @@
+============================================
+  NUMERIC PATTERN GENERATOR
+============================================
+
+Hollow diamond, size 5
+--------------------------------------------
+  1
+ 2 2
+3   3
+ 2 2
+  1
+
+Hollow diamond, size 7
+--------------------------------------------
+   1
+  2 2
+ 3   3
+4     4
+ 3   3
+  2 2
+   1
+
+Validation: even size 6
+--------------------------------------------
+  INVALID: size 6 -> must be odd and >= 3
+
+Validation: size 1
+--------------------------------------------
+  INVALID: size 1 -> must be odd and >= 3
+
+Number pyramid, size 5
+--------------------------------------------
+    1
+   121
+  12321
+ 1234321
+123454321
+
+Validation: size -2
+--------------------------------------------
+  INVALID: size -2 -> must be >= 1
+
+Done. All sizes were checked before printing.

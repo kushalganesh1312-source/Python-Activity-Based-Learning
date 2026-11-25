@@ -1,0 +1,25 @@
+====================================================================
+  PASSWORD POLICY VALIDATION
+====================================================================
+Rules: length >= 8, need upper + lower + digit + special,
+no prohibited words ['password', '123456', 'admin', 'welcome'], no 3-in-a-row repeat.
+--------------------------------------------------------------------
+  [FAIL] hello              -> 4 problem(s)
+           * length 5 is less than minimum 8
+           * no uppercase letter (A-Z)
+           * no digit (0-9)
+           * no special character from !@#$%^&*
+  [FAIL] Pass123            -> 2 problem(s)
+           * length 7 is less than minimum 8
+           * no special character from !@#$%^&*
+  [PASS] Campus#2026        -> accepted
+  [FAIL] aaaBBB111!!!       -> 1 problem(s)
+           * has 3 or more same characters in a row
+  [FAIL] admin@123          -> 2 problem(s)
+           * no uppercase letter (A-Z)
+           * contains prohibited word 'admin'
+  [PASS] Karthik$99         -> accepted
+  [FAIL] ZZZZzzzz1111!      -> 1 problem(s)
+           * has 3 or more same characters in a row
+--------------------------------------------------------------------
+Result: 2 out of 7 passwords passed the policy.

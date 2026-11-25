@@ -1,0 +1,27 @@
+======================================================================
+  UNIVERSITY SCHOLARSHIP - ELIGIBLE APPLICANTS
+======================================================================
+Rank   Roll       Name       Aggregate   Attendance
+----------------------------------------------------------------------
+1      S203       Ravi       85.00       95.0%     
+2      S201       Karthik    80.00       90.0%     
+3      S205       Arjun      70.00       88.0%     
+4      S204       Sneha      70.00       82.0%     
+----------------------------------------------------------------------
+
+Tie check:
+  Tie at 70.00 between S205 and S204 -> S205 has higher attendance (88% vs 82%), so ranked first.
+
+Rejected applicants:
+----------------------------------------------------------------------
+  S202 (Priya):
+    - aggregate 58.0 is below 65
+    - Physics mark 48 is below 50
+  S206 (Divya):
+    - aggregate 57.4 is below 65
+  S207 (Manoj):
+    - attendance 70.0% is below 75%
+  S208 (Lakshmi):
+    - income 650000 is above limit 600000
+----------------------------------------------------------------------
+Total: 4 eligible, 4 rejected out of 8 applicants.

@@ -1,0 +1,49 @@
+======================================================
+  ATM BANKING SIMULATION (opening Rs 10000.00)
+======================================================
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Deposit amount:   Deposited Rs 8000.00. New balance Rs 18000.00
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Withdraw amount:   Withdrawn Rs 3000.00. New balance Rs 15000.00
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Withdraw amount:   Withdrawn Rs 500.00. New balance Rs 14500.00
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Withdraw amount:   REJECTED: max withdrawal is Rs 15000.
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Withdraw amount:   REJECTED: enter numbers only.
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   Current balance: Rs 14500.00
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice:   ---- MINI STATEMENT ----
+   1. DEPOSIT  Rs   8000.00   balance Rs  18000.00
+   2. WITHDRAW Rs   3000.00   balance Rs  15000.00
+   3. WITHDRAW Rs    500.00   balance Rs  14500.00
+  Current balance: Rs 14500.00
+
+  1. Deposit        2. Withdraw
+  3. Check balance  4. Mini statement
+  5. Exit
+  Enter choice: ------------------------------------------------------
+  Session ended: 3 transaction(s), closing balance Rs 14500.00
+======================================================
